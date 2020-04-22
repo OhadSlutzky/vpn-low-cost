@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
 
-  "name": "test #5",
+  "name": "test #6",
   "version": "1.0",
   "browser_action": {
     "default_popup": "index.html",

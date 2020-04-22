@@ -1,11 +1,11 @@
 document.addEventListener('DOMContentLoaded', function(){
   $(document).ready(function(){
     var message = "";
-    $("#name").change(function(){
+    $("#first_name").change(function(){
       message = "";
       message += nameChanged(this.value) + ", ";
     });
-    $("#dog_name").change(function(){
+    $("#last_name").change(function(){
       message += nameChanged(this.value);
     });
     $("#btn1").click(function(){

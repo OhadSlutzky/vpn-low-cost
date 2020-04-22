@@ -16,7 +16,7 @@ http.createServer(function (request, response){
     body2 = message[1];
     responseMsg = "";
 }).on("end", () => {
-    responseMsg += "Hello " + body1 + "! Did you feed " + body2 + "?\n";
+    responseMsg += "Hello " + body1 + " " + body2 + "\n";
     console.log(responseMsg);
     response.writeHead(200, {'Content-Type': 'text/plain'});
     response.end(responseMsg);
